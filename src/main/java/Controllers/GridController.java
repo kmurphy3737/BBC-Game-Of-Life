@@ -146,8 +146,8 @@ public class GridController {
 
     /**
      * Stops the game when the user clicks the stop button.
-     * Returns the user to the original blank grid they had upon loading the program. Will return the grid data to
-     * its original state and return the number of generations run to 0.
+     * Returns the user to the original seed data on the grid they had upon loading the program. Will return the grid
+     * data to its original state and return the number of generations run to 0.
      */
     public void stopGame(){
         timer.stop();

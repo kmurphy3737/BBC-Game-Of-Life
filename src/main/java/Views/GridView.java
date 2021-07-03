@@ -175,7 +175,7 @@ public class GridView implements ActionListener{
     }
 
     /**
-     * Displays blank grid on the JFrame and resets button names and status.
+     * Displays seed data on grid on the JFrame and resets button names and status.
      */
     public void stopGame(){
         if(startButton.getText().equals(RESUME)){
@@ -265,7 +265,7 @@ public class GridView implements ActionListener{
                 for(int j = 5; j <  (gridData.get(0).size()-5); j++){
                     Rectangle box = new Rectangle(xCoordinates,yCoordinates,width,height);
                     g2.draw(box);
-                    if(gridData.get(i).get(j) == 1 && controller.getGenerationNumber() > 0){
+                    if(gridData.get(i).get(j) == 1){
                         g2.fill(box);
                     }
                     xCoordinates += width;
