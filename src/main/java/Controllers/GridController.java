@@ -20,7 +20,7 @@ public class GridController {
     /**
      * Number of miliseconds delay for timer.
      */
-    private final int TIMER_DELAY = 100;
+    private final int TIMER_DELAY = 500;
 
     //Instance Variables
     private DataReadIn data;
